@@ -3,7 +3,9 @@
 :root {
   --primary-color: #1e40af;
 }
-
+a {
+  text-decoration: none;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -35,4 +37,25 @@ hr {
 }
 .list-item-inline {
   display: inline;
+}
+.nav-list-item {
+  display: inline;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+.navigation {
+  color: white;
+  display: block;
+  background-color: var(--primary-color);
+  border-radius: 0.1rem 1rem;
+}
+.navigation .nav-list-item-link {
+  color: white;
+}
+.navigation .unordered-list {
+  padding: 0rem 2rem;
+  text-align: right;
+}
+.navigation .brand-name {
+  padding: 0rem 1rem;
 }
