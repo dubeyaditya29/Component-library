@@ -1,5 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+:root {
+  --primary-color: #1e40af;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+hr {
+  margin-top: 2rem;
+}
+.centered-fluid-container {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.link-facebook {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+}
+.link-twitter {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+.list-item {
+  text-decoration: none;
+}
+.unordered-list {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
 }
