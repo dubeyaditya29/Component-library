@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #1e40af;
+  --offwhite: #e5e7eb;
 }
 a {
   text-decoration: none;
@@ -58,4 +59,30 @@ hr {
 }
 .navigation .brand-name {
   padding: 1rem 1rem;
+}
+
+/**Header**/
+
+.hero {
+  padding: 0rem 2rem;
+}
+.hero .hero--img {
+  display: flex;
+  max-width: 400px;
+  margin: auto;
+}
+.hero .hero--header {
+  text-align: center;
+}
+.hero .hero--subheader {
+  color: var(--primary-color);
+}
+
+/**section**/
+
+.section {
+  text-align: center;
+}
+.section__offwhite {
+  background-color: var(--offwhite);
 }
